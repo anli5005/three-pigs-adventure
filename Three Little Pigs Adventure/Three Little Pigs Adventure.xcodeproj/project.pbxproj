@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9265F4921922DA0D00212C2E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265F4911922DA0D00212C2E /* Cocoa.framework */; };
+		9265F49C1922DA0D00212C2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9265F49A1922DA0D00212C2E /* InfoPlist.strings */; };
+		9265F49E1922DA0D00212C2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265F49D1922DA0D00212C2E /* main.m */; };
+		9265F4A21922DA0D00212C2E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9265F4A01922DA0D00212C2E /* Credits.rtf */; };
+		9265F4A51922DA0D00212C2E /* A5005AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265F4A41922DA0D00212C2E /* A5005AppDelegate.m */; };
+		9265F4A81922DA0D00212C2E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9265F4A61922DA0D00212C2E /* MainMenu.xib */; };
+		9265F4AA1922DA0D00212C2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9265F4A91922DA0D00212C2E /* Images.xcassets */; };
+		9265F4B11922DA0D00212C2E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265F4B01922DA0D00212C2E /* XCTest.framework */; };
+		9265F4B21922DA0D00212C2E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9265F4911922DA0D00212C2E /* Cocoa.framework */; };
+		9265F4BA1922DA0E00212C2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9265F4B81922DA0E00212C2E /* InfoPlist.strings */; };
+		9265F4BC1922DA0E00212C2E /* Three_Little_Pigs_AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265F4BB1922DA0E00212C2E /* Three_Little_Pigs_AdventureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9265F4B31922DA0D00212C2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9265F4861922DA0D00212C2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9265F48D1922DA0D00212C2E;
+			remoteInfo = "Three Little Pigs Adventure";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9265F48E1922DA0D00212C2E /* Three Little Pigs Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Little Pigs Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9265F4911922DA0D00212C2E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9265F4941922DA0D00212C2E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9265F4951922DA0D00212C2E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9265F4961922DA0D00212C2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9265F4991922DA0D00212C2E /* Three Little Pigs Adventure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Three Little Pigs Adventure-Info.plist"; sourceTree = "<group>"; };
+		9265F49B1922DA0D00212C2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9265F49D1922DA0D00212C2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9265F49F1922DA0D00212C2E /* Three Little Pigs Adventure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Three Little Pigs Adventure-Prefix.pch"; sourceTree = "<group>"; };
+		9265F4A11922DA0D00212C2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9265F4A31922DA0D00212C2E /* A5005AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A5005AppDelegate.h; sourceTree = "<group>"; };
+		9265F4A41922DA0D00212C2E /* A5005AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A5005AppDelegate.m; sourceTree = "<group>"; };
+		9265F4A71922DA0D00212C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9265F4A91922DA0D00212C2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9265F4AF1922DA0D00212C2E /* Three Little Pigs AdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three Little Pigs AdventureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9265F4B01922DA0D00212C2E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9265F4B71922DA0E00212C2E /* Three Little Pigs AdventureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Three Little Pigs AdventureTests-Info.plist"; sourceTree = "<group>"; };
+		9265F4B91922DA0E00212C2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9265F4BB1922DA0E00212C2E /* Three_Little_Pigs_AdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Three_Little_Pigs_AdventureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9265F48B1922DA0D00212C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9265F4921922DA0D00212C2E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9265F4AC1922DA0D00212C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9265F4B21922DA0D00212C2E /* Cocoa.framework in Frameworks */,
+				9265F4B11922DA0D00212C2E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9265F4851922DA0D00212C2E = {
+			isa = PBXGroup;
+			children = (
+				9265F4971922DA0D00212C2E /* Three Little Pigs Adventure */,
+				9265F4B51922DA0D00212C2E /* Three Little Pigs AdventureTests */,
+				9265F4901922DA0D00212C2E /* Frameworks */,
+				9265F48F1922DA0D00212C2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9265F48F1922DA0D00212C2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9265F48E1922DA0D00212C2E /* Three Little Pigs Adventure.app */,
+				9265F4AF1922DA0D00212C2E /* Three Little Pigs AdventureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9265F4901922DA0D00212C2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9265F4911922DA0D00212C2E /* Cocoa.framework */,
+				9265F4B01922DA0D00212C2E /* XCTest.framework */,
+				9265F4931922DA0D00212C2E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9265F4931922DA0D00212C2E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9265F4941922DA0D00212C2E /* AppKit.framework */,
+				9265F4951922DA0D00212C2E /* CoreData.framework */,
+				9265F4961922DA0D00212C2E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9265F4971922DA0D00212C2E /* Three Little Pigs Adventure */ = {
+			isa = PBXGroup;
+			children = (
+				9265F4A31922DA0D00212C2E /* A5005AppDelegate.h */,
+				9265F4A41922DA0D00212C2E /* A5005AppDelegate.m */,
+				9265F4A61922DA0D00212C2E /* MainMenu.xib */,
+				9265F4A91922DA0D00212C2E /* Images.xcassets */,
+				9265F4981922DA0D00212C2E /* Supporting Files */,
+			);
+			path = "Three Little Pigs Adventure";
+			sourceTree = "<group>";
+		};
+		9265F4981922DA0D00212C2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9265F4991922DA0D00212C2E /* Three Little Pigs Adventure-Info.plist */,
+				9265F49A1922DA0D00212C2E /* InfoPlist.strings */,
+				9265F49D1922DA0D00212C2E /* main.m */,
+				9265F49F1922DA0D00212C2E /* Three Little Pigs Adventure-Prefix.pch */,
+				9265F4A01922DA0D00212C2E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9265F4B51922DA0D00212C2E /* Three Little Pigs AdventureTests */ = {
+			isa = PBXGroup;
+			children = (
+				9265F4BB1922DA0E00212C2E /* Three_Little_Pigs_AdventureTests.m */,
+				9265F4B61922DA0D00212C2E /* Supporting Files */,
+			);
+			path = "Three Little Pigs AdventureTests";
+			sourceTree = "<group>";
+		};
+		9265F4B61922DA0D00212C2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9265F4B71922DA0E00212C2E /* Three Little Pigs AdventureTests-Info.plist */,
+				9265F4B81922DA0E00212C2E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9265F48D1922DA0D00212C2E /* Three Little Pigs Adventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9265F4BF1922DA0E00212C2E /* Build configuration list for PBXNativeTarget "Three Little Pigs Adventure" */;
+			buildPhases = (
+				9265F48A1922DA0D00212C2E /* Sources */,
+				9265F48B1922DA0D00212C2E /* Frameworks */,
+				9265F48C1922DA0D00212C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Three Little Pigs Adventure";
+			productName = "Three Little Pigs Adventure";
+			productReference = 9265F48E1922DA0D00212C2E /* Three Little Pigs Adventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9265F4AE1922DA0D00212C2E /* Three Little Pigs AdventureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9265F4C21922DA0E00212C2E /* Build configuration list for PBXNativeTarget "Three Little Pigs AdventureTests" */;
+			buildPhases = (
+				9265F4AB1922DA0D00212C2E /* Sources */,
+				9265F4AC1922DA0D00212C2E /* Frameworks */,
+				9265F4AD1922DA0D00212C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9265F4B41922DA0D00212C2E /* PBXTargetDependency */,
+			);
+			name = "Three Little Pigs AdventureTests";
+			productName = "Three Little Pigs AdventureTests";
+			productReference = 9265F4AF1922DA0D00212C2E /* Three Little Pigs AdventureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9265F4861922DA0D00212C2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = A5005;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = anli5005;
+				TargetAttributes = {
+					9265F4AE1922DA0D00212C2E = {
+						TestTargetID = 9265F48D1922DA0D00212C2E;
+					};
+				};
+			};
+			buildConfigurationList = 9265F4891922DA0D00212C2E /* Build configuration list for PBXProject "Three Little Pigs Adventure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9265F4851922DA0D00212C2E;
+			productRefGroup = 9265F48F1922DA0D00212C2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9265F48D1922DA0D00212C2E /* Three Little Pigs Adventure */,
+				9265F4AE1922DA0D00212C2E /* Three Little Pigs AdventureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9265F48C1922DA0D00212C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9265F49C1922DA0D00212C2E /* InfoPlist.strings in Resources */,
+				9265F4AA1922DA0D00212C2E /* Images.xcassets in Resources */,
+				9265F4A21922DA0D00212C2E /* Credits.rtf in Resources */,
+				9265F4A81922DA0D00212C2E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9265F4AD1922DA0D00212C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9265F4BA1922DA0E00212C2E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9265F48A1922DA0D00212C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9265F4A51922DA0D00212C2E /* A5005AppDelegate.m in Sources */,
+				9265F49E1922DA0D00212C2E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9265F4AB1922DA0D00212C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9265F4BC1922DA0E00212C2E /* Three_Little_Pigs_AdventureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9265F4B41922DA0D00212C2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9265F48D1922DA0D00212C2E /* Three Little Pigs Adventure */;
+			targetProxy = 9265F4B31922DA0D00212C2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9265F49A1922DA0D00212C2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9265F49B1922DA0D00212C2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9265F4A01922DA0D00212C2E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9265F4A11922DA0D00212C2E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9265F4A61922DA0D00212C2E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9265F4A71922DA0D00212C2E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9265F4B81922DA0E00212C2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9265F4B91922DA0E00212C2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9265F4BD1922DA0E00212C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9265F4BE1922DA0E00212C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9265F4C01922DA0E00212C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three Little Pigs Adventure/Three Little Pigs Adventure-Prefix.pch";
+				INFOPLIST_FILE = "Three Little Pigs Adventure/Three Little Pigs Adventure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9265F4C11922DA0E00212C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three Little Pigs Adventure/Three Little Pigs Adventure-Prefix.pch";
+				INFOPLIST_FILE = "Three Little Pigs Adventure/Three Little Pigs Adventure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9265F4C31922DA0E00212C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Three Little Pigs Adventure.app/Contents/MacOS/Three Little Pigs Adventure";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three Little Pigs Adventure/Three Little Pigs Adventure-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Three Little Pigs AdventureTests/Three Little Pigs AdventureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9265F4C41922DA0E00212C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Three Little Pigs Adventure.app/Contents/MacOS/Three Little Pigs Adventure";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three Little Pigs Adventure/Three Little Pigs Adventure-Prefix.pch";
+				INFOPLIST_FILE = "Three Little Pigs AdventureTests/Three Little Pigs AdventureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9265F4891922DA0D00212C2E /* Build configuration list for PBXProject "Three Little Pigs Adventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9265F4BD1922DA0E00212C2E /* Debug */,
+				9265F4BE1922DA0E00212C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9265F4BF1922DA0E00212C2E /* Build configuration list for PBXNativeTarget "Three Little Pigs Adventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9265F4C01922DA0E00212C2E /* Debug */,
+				9265F4C11922DA0E00212C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9265F4C21922DA0E00212C2E /* Build configuration list for PBXNativeTarget "Three Little Pigs AdventureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9265F4C31922DA0E00212C2E /* Debug */,
+				9265F4C41922DA0E00212C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9265F4861922DA0D00212C2E /* Project object */;
+}
