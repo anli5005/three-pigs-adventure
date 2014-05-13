@@ -12,4 +12,8 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+@property (unsafe_unretained) IBOutlet NSTextView *output;
+@property (weak) IBOutlet NSTextField *input;
+@property (weak) IBOutlet NSTextField *points;
+
 @end
